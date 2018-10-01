@@ -1,0 +1,23 @@
+Game starts with a randomly generated number between 19-120
+Your 4 crystals are each worth a different randomly generated number between 1-12
+
+The random number goal is displayed and renewed after the conclusion of each game
+The sum of your crystal guesses is displayed and renewed after each click until after the conclusion of each game
+
+At the conclusion of each game, you will be informed of a win or loss, the respective row total will be 
+updated, the goal random number will renew and your score total will reset to zero.
+
+Static:
+-Game title located at the top of the page
+-Game instructions
+-Random number display box
+-Guesses sum display box w/ text of "Your total score is:"
+-4 crystal button images
+-Win/loss/game result display box
+-Background image
+
+What to do:
+-Create 4 on "click" event handlers, one for each crystal image
+-Generate the random numbers at the beginning of each game
+
+

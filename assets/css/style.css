@@ -1,0 +1,109 @@
+body {
+    font-family: "Courier", serif;
+    background-color: #ffffff;
+    background-image: url(../images/just-waves.png);
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #35e9cf;
+}
+
+footer {
+    height: 30px;
+}
+
+.jumbotron {
+    font-family: "Press Start 2P", sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#rules-hdr {
+    background-color: #000000;
+    color: #005adf;
+    font-weight: bold;
+}
+
+#rules-display {
+    color: #005adf;
+    font-weight: bold;
+}
+
+#goal-hdr {
+    background-color: #000000;
+    color: #ff00f1;
+    font-weight: bold;
+}
+
+#goal-display {
+    padding-top: 10px;
+    font-size: 80px;
+    color: #ff00f1;
+    font-weight: bold;
+}
+
+#results-hdr {
+    background-color: #000000;
+    color: #00ff00;
+    font-weight: bold;
+}
+
+#results-display {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+#result-display {
+    height: 38px;
+}
+
+#score-hdr {
+    background-color: #000000;
+    color: #eefb00;
+    font-weight: bold;
+}
+
+#score-display {
+    font-size: 80px;
+    color: #eefb00;
+    font-weight: bold;
+}
+
+#crystals-hdr {
+    background-color: #000000;
+    color: #35e9cf;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1500px) {
+    #card-height-1,
+    #card-height-2 {
+        height: 14rem;
+        
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #card-height-1,
+    #card-height-2 {
+        height: 22rem;
+    }
+
+    #score-display {
+        padding-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #card-height-1 {
+        height: 14rem;
+    }
+
+    #score-display {
+        padding-top: 0px;
+    }
+}

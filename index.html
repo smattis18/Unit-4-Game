@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A guessing game called 'Crystals Collector' created by and for Steve Mattis">
+    <meta name="author" content="Steve Mattis">
+    <meta name="robots" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Crystals Collector</title>
+</head>
+<body>
+        <div class="jumbotron">
+            <h1 class="text-center">\Crystals Collector_</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mb-2">
+                        <h3 class="card-header" id="rules-hdr">Rules:</h3>
+                        <div id="rules-display"></div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-2" style ="height: 14rem;">
+                        <h3 class="card-header" id="goal-hdr">Goal:</h3>
+                            <div class="card-body text-center">
+                                <h1 id="goal-display"></h1>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="card mb-2" style="height: 14rem;">
+                            <h3 class="card-header" id="results-hdr">Results:</h3>
+                                <div class="card-body text-center">
+                                    <h2 id="results-display">
+                                        <div id="result-display">Good Luck!</div>
+                                        <div>Wins:<span id="wins-display">0</span></div>
+                                        <div>Losses:<span id="losses-display">0</span></div>
+                                    </h2>
+                                </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-md-5">
+                        <div class="card mb-2" id="card-height-1">
+                            <h3 class="card-header" id="score-hdr">Score:</h3>
+                                <div class="card-body text-center">
+                                    <h1 id="score-display">0</h1>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                            <div class="card mb-2" id="card-height-2">
+                                <h3 class="card-header" id="crystals-hdr">Crystals:</h3>
+                                    <div class="card-body text-center">
+                                            <img src="assets/images/red-gem.png" id="0" data-value="">
+                                            <img src="assets/images/white-gem.png" id="1" data-value="">
+                                            <img src="assets/images/green-gem.png" id="2" data-value="">
+                                            <img src="assets/images/blue-gem.png" id="3" data-value="">
+                                        </button>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <footer></footer>
+    
+</body>
+</html>
